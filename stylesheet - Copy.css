@@ -1,0 +1,75 @@
+body {
+    color: rgba(229, 44, 81, 0.776);
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 16px;
+    border-width: 1.2px;
+    border-style: groove;
+    border-color: gold;
+}
+
+li:hover {
+    color: beige;
+    background-color: rgba(229, 44, 81, 0.776);
+}
+
+.navlinks {
+    background-color: beige;
+    text-align: center;
+    font-size: 1.25rem;
+    color: goldenrod;
+}
+
+.imagebanner {
+    background-image: url("images/imagebanner.png");
+    padding: 50px;
+    background-size: cover;
+}
+
+h3 {
+    text-align: center;
+    background-color: whitesmoke;
+    color: rgb(189, 94, 94);
+}
+
+.introduction {
+    text-align: center;
+    font-size: larger;
+}
+
+img {
+    height: 200px;
+    padding: 30px;
+}
+
+.ourhotdogs {
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 4px groove rgba(229, 44, 81, 0.776);
+        border-right: 0px;
+    }
+
+    .hotdog {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
